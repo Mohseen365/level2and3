@@ -18,17 +18,17 @@ class Main {
     
   public static void main(String[] args) throws NumberFormatException, IOException {
       
-      Person p1 = new Person();
+      Person p1 = new Person(); // new Person(); -> creating an instance/object and Person p1 -> reference to instance
       p1.age = 10;
       p1.name = "A";
       p1.sayHi();
       
-      Person p2 = new Person();
+      Person p2 = new Person(); // new instance
       p2.age = 20;
       p2.name = "B";
       p2.sayHi();
       
-      Person p3 = p2;
+      Person p3 = p2; // no new instance only new reference
       p3.sayHi();
       
       p2.name = "C";
