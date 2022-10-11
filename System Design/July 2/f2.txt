@@ -16,8 +16,8 @@ class Main {
   
     
   public static void main(String[] args) throws NumberFormatException, IOException {
-      Rectangle r = new Rectangle(); // instance, ref
-      r.tl = new Point(); // inst, ref
+      Rectangle r = new Rectangle(); // (instance, ref) r to stack me he
+      r.tl = new Point(); // (inst, ref) ab r.t1 heap me he stack m nhi
       r.tl.x = 2;
       r.tl.y = 6;
 
