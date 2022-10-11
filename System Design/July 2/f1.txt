@@ -20,7 +20,7 @@ class Main {
       
       Person p1 = new Person(); // new Person(); -> creating an instance/object and Person p1 -> reference to instance
       p1.age = 10;
-      p1.name = "A";
+      p1.name = "A"; // abhi tak sab main function ke ander chal rha he lekin 24 line me ek fn ka memory allocation hoga aur uska this p1 reference to instance ko point krega
       p1.sayHi();
       
       Person p2 = new Person(); // new instance
