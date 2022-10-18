@@ -33,13 +33,14 @@ class Main {
     
   public static void main(String[] args) throws NumberFormatException, IOException {
       // case 2 => P and C
-      P obj = new C();
+      P obj = new C(); // new C(); -> C ka object bna dega jisme c + p pda hoga lekin P obj -> iski wajah se only P ka reference milega
       System.out.println(obj.d); // conflict (object has P.d and C.d, resolved by ref -> P)
       System.out.println(obj.d1); // available only in P
     //   System.out.println(obj.d2); // not allowed, because compiler doesn't allow it
       System.out.println(((C)obj).d2); // typecasting allows it and we see C.d2
       
-      obj.fun(); // available at C first
+      obj.fun(); // kyuki yeh P me available he to compiler allow krega but instance C ka bna hua he to execution ke time pr C ka fun chalega kyuki vo Pehle C ka                           dekhega conflict me because C ka instance he vo
+      // Note obj.dataMember is case me obj ka reference ke hisab se, obj.function is case me obj kiska instance (C object) lekar aaya he uska function chalega
       obj.fun1(); // available only in P
     //   obj.fun2(); // not allowed, because compiler won't allow it
     ((C)obj).fun2(); // typecasting allows it and we see C fun2
