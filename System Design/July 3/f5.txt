@@ -33,7 +33,7 @@ class Main {
       // case 2 => C and p
       C obj = new P();
      // Why not allowed
-     // If allowed, we will subsequently get run-time errors because C allows d, d1, d2, f, d1, fun2
+     // Compiler did not allow because If we allowed, we will subsequently get run-time errors because C allows d, d1, d2, f, d1, fun2
      // but P (instance) only has d and d1, f and f1
   }
 
