@@ -13,7 +13,7 @@ Inheritance & Polymorphism
 ----------------------------------------------------------------
 Object creation
     1. Space allocation & this assignment
-        Space is allocated for all non-static data members. this is set equal to the new object's address
+        Space is allocated for all non-static data members. this (keyword) is set equal to the new object's address
         Data members are assigned default values (JAVA)
             0 = byte, short, int, long
             0.0 = float, double
