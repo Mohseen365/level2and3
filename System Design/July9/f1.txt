@@ -17,7 +17,7 @@ class Main {
     DBConnection dbconnection;
     Directory studentFolder;
     int fees;
-
+    // agar koisa bhi constructor nhi bnaya to java khud se constructor(){} esa constructor bna deta he
     // static block - for setting dynamic kind of static properties
     static {
         // kind of default ctor for static properties 
