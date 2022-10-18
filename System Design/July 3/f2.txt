@@ -35,7 +35,7 @@ class Main {
     
   public static void main(String[] args) throws NumberFormatException, IOException {
       // case 1 => P and P
-      P obj = new P();
+      P obj = new P(); //Compile time pr sirf fun def and static value, run time pr execution hoga
       System.out.println(obj.d); // 1
       System.out.println(obj.d1); // 10
       obj.fun(); // P fun
