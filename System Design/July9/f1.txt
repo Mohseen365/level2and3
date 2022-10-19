@@ -3,10 +3,11 @@ import java.util.*;
 
 class Main {
   public static void main(String[] args) throws NumberFormatException, IOException {
-    Student s = new Student(10, "A");
+    Student s = new Student(10, "A"); // new krte hi object memory me ban jata he fir parsing hoti he aur fir constructor call hone se pehle this bhi set ho jata he jo ki object ki memory ko point krta he fir constructor call hota he
   }
 
   static class Student {
+  
     // During space allocation all data members are set to JAVA given default values
     // Parsing sets data members to Class creator's defaults (e.g. maxxScore and schoolName here and growthMultiple in ArrayList)
     int age;
