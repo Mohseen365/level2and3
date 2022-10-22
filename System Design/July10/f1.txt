@@ -14,6 +14,7 @@ class Main {
     final int maxScore = 100;
     final void fun(){
       final int age = 10;
+      //agar ham arrays ko final krenge to uska address change nhi kr sakte lekin arrays ki value change ho sakti he
       //age++;
       System.out.println("Max score is = " + maxScore);
     }
