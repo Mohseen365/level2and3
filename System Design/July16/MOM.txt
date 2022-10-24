@@ -24,7 +24,7 @@
     -> Can an interface have data members? Yes, but not as instance data members, can be used as static data members
 4. abstract class vs interface (4:32 to 4:42 for notes)
     -> Abstract classes can have implementations for some functions, interfaces are supposed to have all functions with no implementations
-    -> Abstract classes can have instance data members, interfaces can only have static data members
+    -> Abstract classes can have instance data members, interfaces can only have static data members (interface ke data member ko derive nhi kar sakte)
     -> A class can't derive two abstract classes, but can implement any number of interfaces
     -> Interface data members are final and static
 5. comparable vs comparator
