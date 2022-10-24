@@ -10,6 +10,8 @@
         Why required? -> To absorb common code of deriving Classes
         If fn is abstract, will the containing class be necessarily abstract? Yes
         If class is abstract, will it necessarily have abstract functions? No
+        Note :- abstract A; B implements A
+            agar abstract fun ko implemented class (B) me body(defination) nhi diya to us class(B) ko bhi abstract krna padega matlab ya to fun implementation blank do             agar kuch nhi likna chahte to
 3. interface
     -> When all fns are abstract and there are no common instance data members to share
     -> Similar to abstract classes
